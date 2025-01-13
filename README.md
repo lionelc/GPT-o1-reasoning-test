@@ -14,7 +14,7 @@ As the Zebra Puzzle is well-known enough to be included in training data, does t
 ## How to run it
 It's basically a simple call on OpenAI API, and each puzzle and the variants (after name swapping) are specified in json files as input.
 
-When you have all the python packages installed, run it like
+When you have all the python packages installed, and set up `OPENAI_API_KEY` in a local `.env`, run it like
 
 `python o1_reason_test.py zebra_puzzle_swap1.json`
 
