@@ -1,0 +1,549 @@
+
+
+-------------Iteration  1 ----------------
+Based on the provided clues, we can systematically deduce the arrangement of the five houses and their respective attributes. Here's a step-by-step breakdown of the solution:
+
+1. **House Assignments:**
+   - **House 1:** 
+     - **Nationality:** Norwegian
+     - **Color:** Yellow
+     - **Cigar:** Kools
+     - **Beverage:** Water
+     - **Pet:** Fox
+   - **House 2:** 
+     - **Nationality:** Ukrainian
+     - **Color:** Blue
+     - **Cigar:** Chesterfields
+     - **Beverage:** Tea
+     - **Pet:** Horse
+   - **House 3:** 
+     - **Nationality:** English
+     - **Color:** Red
+     - **Cigar:** Old Gold
+     - **Beverage:** Milk
+     - **Pet:** Snails
+   - **House 4:** 
+     - **Nationality:** Spaniard
+     - **Color:** Ivory
+     - **Cigar:** Lucky Strike
+     - **Beverage:** Orange Juice
+     - **Pet:** Dog
+   - **House 5:** 
+     - **Nationality:** Japanese
+     - **Color:** Green
+     - **Cigar:** Parliaments
+     - **Beverage:** Coffee
+     - **Pet:** Zebra
+
+2. **Key Deductions:**
+   - The Norwegian in House 1 drinks water.
+   - The Japanese resident in House 5 owns the zebra.
+
+**Conclusion:**
+
+- **Who drinks water?** The **Norwegian** in the first house.
+- **Who owns the zebra?** The **Japanese** in the fifth house.
+
+**Answer:**  
+ The Norwegian drinks water, and the Japanese resident owns the zebra.
+---------------------------------
+Expected Answer: 
+ Norwegian drinks water
+Japanese owns the zebra
+
+
+-------------Iteration  2 ----------------
+After carefully analyzing the given clues, we can deduce the following:
+
+- **The Norwegian drinks water.**
+- **The Japanese owns the zebra.**
+
+### Detailed Reasoning:
+
+1. **House Assignments:**
+   - **House 1:** Norwegian, Yellow, Water, Kools, Fox
+   - **House 2:** Ukrainian, Blue, Tea, Chesterfields, Horse
+   - **House 3:** Englishman, Red, Milk, Old Gold, Snails
+   - **House 4:** Spaniard, Ivory, Coffee, Lucky Strike, Dog
+   - **House 5:** Japanese, Green, Orange Juice, Parliaments, Zebra
+
+2. **Key Points:**
+   - The **Norwegian** in the first house drinks **water**.
+   - The **Japanese** in the last house owns the **zebra**.
+
+This arrangement satisfies all the provided clues, ensuring that each attribute aligns correctly without any conflicts.
+
+**Answer:**  
+The Norwegian drinks water, and the Japanese resident owns the zebra.
+---------------------------------
+Expected Answer: 
+ Norwegian drinks water
+Japanese owns the zebra
+
+
+-------------Iteration  3 ----------------
+Based on the given clues, we can deduce the ownership and beverage preferences for each of the five houses. Here's a step-by-step reasoning to arrive at the solution:
+
+1. **House Assignments:**
+   - **House 1:**
+     - **Nationality:** Norwegian
+     - **Color:** Yellow
+     - **Beverage:** Water
+     - **Cigarettes:** Kools
+     - **Pet:** Fox
+   - **House 2:**
+     - **Nationality:** Ukrainian
+     - **Color:** Blue
+     - **Beverage:** Tea
+     - **Cigarettes:** Chesterfields
+     - **Pet:** Horse
+   - **House 3:**
+     - **Nationality:** Englishman
+     - **Color:** Red
+     - **Beverage:** Milk
+     - **Cigarettes:** Old Gold
+     - **Pet:** Snails
+   - **House 4:**
+     - **Nationality:** Spaniard
+     - **Color:** Ivory
+     - **Beverage:** Orange Juice
+     - **Cigarettes:** Lucky Strike
+     - **Pet:** Dog
+   - **House 5:**
+     - **Nationality:** Japanese
+     - **Color:** Green
+     - **Beverage:** Coffee
+     - **Cigarettes:** Parliaments
+     - **Pet:** Zebra
+
+2. **Key Deductions:**
+   - The **Norwegian** in House 1 drinks **water**.
+   - The **Japanese** in House 5 owns the **zebra**.
+
+**Final Answer:**
+
+• The Norwegian drinks water.
+• The Japanese resident owns the zebra.
+---------------------------------
+Expected Answer: 
+ Norwegian drinks water
+Japanese owns the zebra
+
+
+-------------Iteration  4 ----------------
+Certainly! Let's solve the puzzle step by step using the given clues.
+
+### **Step 1: Set Up the Structure**
+
+We'll organize the information into a table with five houses, each having the following attributes:
+
+1. **House Number**: 1 to 5 (from left to right)
+2. **Nationality**
+3. **Color**
+4. **Beverage**
+5. **Cigar**
+6. **Pet**
+
+### **Step 2: Apply the Clues**
+
+**1.** **The Norwegian lives in the first house.**
+
+- **House 1**: Nationality = Norwegian
+
+**2.** **The Norwegian lives next to the blue house.**
+
+- Since House 1 is Norwegian, **House 2** must be blue.
+
+- **House 2**: Color = Blue
+
+**3.** **Milk is drunk in the middle house.**
+
+- **House 3**: Beverage = Milk
+
+**4.** **The green house is immediately to the right of the ivory house.**
+
+- The only possible positions are:
+  - **House 4**: Color = Ivory
+  - **House 5**: Color = Green and Beverage = Coffee
+
+**5.** **Kools are smoked in the yellow house.**
+
+- **House 1** can't be blue or green, so it must be yellow.
+  
+- **House 1**: Color = Yellow, Cigar = Kools
+
+**6.** **The Ukrainian drinks tea.**
+
+- **House 2**: Nationality = Ukrainian, Beverage = Tea
+
+**7.** **The Englishman lives in the red house.**
+
+- **House 3**: Color = Red, Nationality = English
+
+**8.** **The Spaniard owns the dog.**
+
+- **House 4**: Nationality = Spaniard, Pet = Dog
+
+**9.** **The Japanese smokes Parliaments.**
+
+- **House 5**: Nationality = Japanese, Cigar = Parliaments
+
+**10.** **Kools are smoked next to the house with the horse.**
+
+- **House 2**: Pet = Horse
+
+**11.** **The Old Gold smoker owns snails.**
+
+- **House 3**: Cigar = Old Gold, Pet = Snails
+
+**12.** **The Lucky Strike smoker drinks orange juice.**
+
+- **House 4**: Cigar = Lucky Strike, Beverage = Orange Juice
+
+**13.** **The man who smokes Chesterfields lives next to the man with the fox.**
+
+- **House 2**: Cigar = Chesterfields, Pet = Fox
+
+### **Step 3: Final Table**
+
+| House | Nationality | Color | Beverage     | Cigar        | Pet   |
+|-------|-------------|-------|--------------|--------------|-------|
+| 1     | Norwegian   | Yellow| Water        | Kools        | Fox   |
+| 2     | Ukrainian   | Blue  | Tea          | Chesterfields| Horse |
+| 3     | English     | Red   | Milk         | Old Gold     | Snails|
+| 4     | Spaniard    | Ivory | Orange Juice | Lucky Strike | Dog   |
+| 5     | Japanese    | Green | Coffee       | Parliaments  | Zebra |
+
+### **Conclusion**
+
+- **Who drinks water?**  
+  The **Norwegian** in **House 1** drinks water.
+
+- **Who owns the zebra?**  
+  The **Japanese** in **House 5** owns the zebra.
+---------------------------------
+Expected Answer: 
+ Norwegian drinks water
+Japanese owns the zebra
+
+
+-------------Iteration  5 ----------------
+After carefully analyzing the clues, we can deduce the following arrangement of the five houses:
+
+| House | Color  | Nationality | Drink        | Cigar        | Pet    |
+|-------|--------|-------------|--------------|--------------|--------|
+| 1     | Yellow | Norwegian   | Water        | Kools        | Fox    |
+| 2     | Blue   | Ukrainian   | Tea          | Chesterfields| Horse  |
+| 3     | Red    | Englishman  | Milk         | Old Gold     | Snails |
+| 4     | Ivory  | Spaniard    | Orange Juice | Lucky Strike | Dog    |
+| 5     | Green  | Japanese    | Coffee       | Parliaments  | Zebra  |
+
+**Conclusion:**
+- **The Norwegian drinks water.**
+- **The Japanese owns the zebra.**
+
+**Answer:**  
+The Norwegian person drinks water and the Japanese person owns the zebra.
+---------------------------------
+Expected Answer: 
+ Norwegian drinks water
+Japanese owns the zebra
+
+
+-------------Iteration  6 ----------------
+Based on the given clues, we can deduce the following arrangement of the five houses:
+
+1. **House 1**
+   - **Nationality:** Norwegian
+   - **Color:** Yellow
+   - **Drink:** Water
+   - **Cigar:** Kools
+   - **Pet:** Fox
+
+2. **House 2**
+   - **Nationality:** Ukrainian
+   - **Color:** Blue
+   - **Drink:** Tea
+   - **Cigar:** Chesterfields
+   - **Pet:** Horse
+
+3. **House 3**
+   - **Nationality:** English
+   - **Color:** Red
+   - **Drink:** Milk
+   - **Cigar:** Old Gold
+   - **Pet:** Snails
+
+4. **House 4**
+   - **Nationality:** Spaniard
+   - **Color:** Ivory
+   - **Drink:** Orange Juice
+   - **Cigar:** Lucky Strike
+   - **Pet:** Dog
+
+5. **House 5**
+   - **Nationality:** Japanese
+   - **Color:** Green
+   - **Drink:** Coffee
+   - **Cigar:** Parliaments
+   - **Pet:** Zebra
+
+**Conclusion:**
+- **The Norwegian** (living in the first house) **drinks water**.
+- **The Japanese** (living in the fifth house) **owns the zebra**.
+
+**Final Answer:**
+The Norwegian drinks water, and the Japanese resident owns the zebra.
+---------------------------------
+Expected Answer: 
+ Norwegian drinks water
+Japanese owns the zebra
+
+
+-------------Iteration  7 ----------------
+Let's solve the puzzle step by step by organizing the given information systematically.
+
+### Step 1: Set Up the Houses
+
+We have five houses numbered from 1 to 5, left to right. Each house has distinct attributes:
+
+- **Colors:** red, green, ivory, yellow, blue
+- **Nationalities:** Englishman, Spaniard, Ukrainian, Norwegian, Japanese
+- **Drinks:** coffee, tea, milk, orange juice, water
+- **Cigars:** Old Gold, Kools, Chesterfields, Lucky Strike, Parliaments
+- **Pets:** dog, snails, fox, horse, zebra
+
+### Step 2: Assign Direct Clues
+
+1. **House 1:**
+   - **Nationality:** Norwegian (Clue 10)
+   - **Color:** Yellow (Clue 8 - Kools are smoked in the yellow house)
+   - **Cigars:** Kools
+   - **Pet:** Fox (deduced from adjacent clues)
+
+2. **House 2:**
+   - **Color:** Blue (Clue 15 - Norwegian lives next to the blue house)
+   - **Pet:** Horse (Clue 12 - Kools smoked in yellow house are next to the house with the horse)
+   - **Nationality:** Ukrainian (deduced)
+   - **Drink:** Tea (Clue 5)
+
+3. **House 3:**
+   - **Color:** Red (Clue 2 - Englishman lives in the red house)
+   - **Nationality:** Englishman
+   - **Drink:** Milk (Clue 9)
+
+4. **House 4:**
+   - **Color:** Ivory (Clue 6 - Green house is immediately to the right of the ivory house)
+   - **Nationality:** Spaniard (deduced)
+   - **Drink:** Orange Juice (Clue 13 - Lucky Strike smoker drinks orange juice)
+   - **Cigars:** Lucky Strike
+   - **Pet:** Dog (Clue 3)
+
+5. **House 5:**
+   - **Color:** Green (Clue 6)
+   - **Drink:** Coffee (Clue 4)
+   - **Nationality:** Japanese (Clue 14)
+   - **Cigars:** Parliaments
+   - **Pet:** Zebra (deduced)
+
+### Step 3: Final Assignments
+
+- **Drinks:**
+  - **House 1:** Water (by elimination)
+  - **House 2:** Tea
+  - **House 3:** Milk
+  - **House 4:** Orange Juice
+  - **House 5:** Coffee
+
+- **Pets:**
+  - **House 1:** Fox
+  - **House 2:** Horse
+  - **House 3:** Snails (Clue 7 - Old Gold smoker owns snails)
+  - **House 4:** Dog
+  - **House 5:** Zebra
+
+### Conclusion
+
+- **Who drinks water?**  
+  The **Norwegian** in House **1** drinks water.
+
+- **Who owns the zebra?**  
+  The **Japanese** in House **5** owns the zebra.
+
+**Answer:**  
+**The Norwegian drinks water, and the Japanese resident owns the zebra.**
+---------------------------------
+Expected Answer: 
+ Norwegian drinks water
+Japanese owns the zebra
+
+
+-------------Iteration  8 ----------------
+After systematically analyzing the clues, here's the solution:
+
+1. **The Norwegian drinks water.**
+2. **The Japanese owns the zebra.**
+
+**Summary of the Solution:**
+
+- **House 1:**  
+  - **Nationality:** Norwegian  
+  - **Color:** Yellow  
+  - **Drink:** Water  
+  - **Cigar:** Kools  
+  - **Pet:** Fox  
+
+- **House 2:**  
+  - **Nationality:** Ukrainian  
+  - **Color:** Blue  
+  - **Drink:** Tea  
+  - **Cigar:** Old Gold  
+  - **Pet:** Snails  
+
+- **House 3:**  
+  - **Nationality:** English  
+  - **Color:** Red  
+  - **Drink:** Milk  
+  - **Cigar:** Chesterfields  
+  - **Pet:** Dog  
+
+- **House 4:**  
+  - **Nationality:** Spaniard  
+  - **Color:** Ivory  
+  - **Drink:** Orange Juice  
+  - **Cigar:** Lucky Strike  
+  - **Pet:** Horse  
+
+- **House 5:**  
+  - **Nationality:** Japanese  
+  - **Color:** Green  
+  - **Drink:** Coffee  
+  - **Cigar:** Parliaments  
+  - **Pet:** Zebra  
+
+**Conclusion:**
+- **Water is drunk by the Norwegian.**
+- **The Japanese owns the zebra.**
+---------------------------------
+Expected Answer: 
+ Norwegian drinks water
+Japanese owns the zebra
+
+
+-------------Iteration  9 ----------------
+Based on the clues provided, here's the logical deduction to solve the puzzle:
+
+1. **House Assignments:**
+   - **House 1:**  
+     - **Nationality:** Norwegian  
+     - **Color:** Yellow  
+     - **Drink:** Water  
+     - **Cigar:** Kools  
+     - **Pet:** Fox  
+   - **House 2:**  
+     - **Nationality:** Ukrainian  
+     - **Color:** Blue  
+     - **Drink:** Tea  
+     - **Cigar:** Chesterfields  
+     - **Pet:** Horse  
+   - **House 3:**  
+     - **Color:** Ivory  
+     - **Drink:** Milk  
+     - **Cigar:** Old Gold  
+     - **Pet:** Snails  
+   - **House 4:**  
+     - **Nationality:** Japanese  
+     - **Color:** Green  
+     - **Drink:** Coffee  
+     - **Cigar:** Parliaments  
+     - **Pet:** Zebra  
+   - **House 5:**  
+     - **Nationality:** Englishman  
+     - **Color:** Red  
+     - **Drink:** Orange Juice  
+     - **Cigar:** Lucky Strike  
+     - **Pet:** Dog  
+
+2. **Conclusion:**
+   - **Who drinks water?** The **Norwegian** in House 1.
+   - **Who owns the zebra?** The **Japanese** in House 4.
+
+**Final Answer:**
+- The Norwegian drinks water.
+- The Japanese owns the zebra.
+---------------------------------
+Expected Answer: 
+ Norwegian drinks water
+Japanese owns the zebra
+
+
+-------------Iteration  10 ----------------
+Let's solve the puzzle step by step using logical deduction based on the provided clues.
+
+### Step 1: Set Up the Houses
+
+We have five houses numbered from 1 to 5, each with distinct attributes:
+- **Colors**: red, green, ivory, yellow, blue
+- **Nationalities**: Englishman, Spaniard, Ukrainian, Norwegian, Japanese
+- **Drinks**: coffee, tea, milk, orange juice, water
+- **Cigars**: Old Gold, Kools, Chesterfields, Lucky Strike, Parliaments
+- **Pets**: dog, snails, fox, horse, zebra
+
+### Step 2: Initial Assignments
+
+1. **House 1**:
+   - **Nationality**: Norwegian (Clue 10)
+   - **Color**: Yellow (Clue 8 - Kools are smoked in the yellow house)
+   - **Cigar**: Kools
+   - **Drink**: **Water** (deduced later)
+   - **Pet**: Fox (deduced from adjacency clues)
+
+2. **House 2**:
+   - **Color**: Blue (Clue 15 - Norwegian lives next to the blue house)
+   - **Nationality**: Ukrainian (Clue 5 - Ukrainian drinks tea)
+   - **Drink**: Tea
+   - **Cigar**: Chesterfields
+   - **Pet**: Horse (Clue 12 - Kools are smoked next to the house with the horse)
+
+3. **House 3**:
+   - **Color**: Red (Clue 2 - Englishman lives in the red house)
+   - **Nationality**: Englishman
+   - **Drink**: Milk (Clue 9)
+   - **Cigar**: Old Gold
+   - **Pet**: Snails (Clue 7)
+
+4. **House 4**:
+   - **Color**: Ivory (Clue 6 - Green house is immediately to the right of the ivory house)
+   - **Drink**: Orange Juice (Clue 13)
+   - **Cigar**: Lucky Strike
+   - **Nationality**: Spaniard (Clue 3 - Spaniard owns the dog)
+   - **Pet**: Dog
+
+5. **House 5**:
+   - **Color**: Green (Clue 6)
+   - **Drink**: Coffee (Clue 4)
+   - **Cigar**: Parliaments (Clue 14 - Japanese smokes Parliaments)
+   - **Nationality**: Japanese
+   - **Pet**: Zebra (remaining pet)
+
+### Summary of Assignments
+
+| House | Color  | Nationality | Drink       | Cigar        | Pet    |
+|-------|--------|-------------|-------------|--------------|--------|
+| 1     | Yellow | Norwegian   | Water       | Kools        | Fox    |
+| 2     | Blue   | Ukrainian   | Tea         | Chesterfields| Horse  |
+| 3     | Red    | Englishman  | Milk        | Old Gold     | Snails |
+| 4     | Ivory  | Spaniard    | Orange Juice| Lucky Strike | Dog    |
+| 5     | Green  | Japanese    | Coffee      | Parliaments  | Zebra  |
+
+### Conclusion
+
+- **Who drinks water?** The **Norwegian** in **House 1** drinks water.
+- **Who owns the zebra?** The **Japanese** in **House 5** owns the zebra.
+
+**Answer:**  
+The Norwegian drinks water, and the Japanese resident owns the zebra.
+---------------------------------
+Expected Answer: 
+ Norwegian drinks water
+Japanese owns the zebra

@@ -1,0 +1,850 @@
+
+
+-------------Iteration  1 ----------------
+Based on the given clues, we can deduce the following:
+
+1. **Who drinks milk?**
+   - The **Spaniard** in **House 3** drinks milk.
+  
+2. **Who lives in the red house?**
+   - The **Ukrainian** lives in the **red house**, which is **House 2**.
+
+3. **Who owns a horse?**
+   - The **Norwegian** in **House 1** owns the **horse**.
+
+4. **Who owns a zebra?**
+   - The **Japanese** in **House 4** owns the **zebra**.
+
+**Final Arrangement:**
+
+- **House 1:**
+  - Nationality: Norwegian
+  - House Color: Yellow
+  - Drink: Water
+  - Smoke: Kools
+  - Pet: Horse
+
+- **House 2:**
+  - Nationality: Ukrainian
+  - House Color: Red
+  - Drink: Tea
+  - Smoke: Old Gold
+  - Pet: Snails
+
+- **House 3:**
+  - Nationality: Spaniard
+  - House Color: Ivory
+  - Drink: Milk
+  - Smoke: Chesterfields
+  - Pet: Dog
+
+- **House 4:**
+  - Nationality: Japanese
+  - House Color: Green
+  - Drink: Coffee
+  - Smoke: Parliaments
+  - Pet: Zebra
+
+- **House 5:**
+  - Nationality: Englishman
+  - House Color: Blue
+  - Drink: Orange Juice
+  - Smoke: Lucky Strike
+  - Pet: Fox
+
+So, the answers are:
+
+- **Who drinks milk?** The Spaniard.
+- **Who lives in the red house?** The Ukrainian.
+- **Who owns a horse?** The Norwegian.
+- **Who owns a zebra?** The Japanese.
+---------------------------------
+Expected Answer: 
+ Englishman drinks milk
+Ukrainian lives in the red house
+Japanese owns the horse
+Ukrainian owns the zebra
+
+
+-------------Iteration  2 ----------------
+To solve this puzzle, we systematically deduced the attributes of each house and occupant based on the given clues. Here are the final assignments:
+
+**House 1:**
+- **Nationality:** Norwegian
+- **Color:** Yellow
+- **Drink:** 
+- **Smoke:** Kools
+- **Pet:** Fox
+
+**House 2:**
+- **Nationality:** Ukrainian
+- **Color:** Red
+- **Drink:** Tea
+- **Smoke:** Chesterfields
+- **Pet:** **Zebra**
+
+**House 3:**
+- **Nationality:** Englishman
+- **Color:** Blue
+- **Drink:** **Milk**
+- **Smoke:** Old Gold
+- **Pet:** Snails
+
+**House 4:**
+- **Nationality:** Spaniard
+- **Color:** Ivory
+- **Drink:** Orange Juice
+- **Smoke:** Lucky Strike
+- **Pet:** Dog
+
+**House 5:**
+- **Nationality:** Japanese
+- **Color:** Green
+- **Drink:** Coffee
+- **Smoke:** Parliaments
+- **Pet:** **Horse**
+
+**Answers to the questions:**
+
+1. **Who drinks milk?** The Englishman in House 3 drinks milk.
+2. **Who lives in the red house?** The Ukrainian lives in the red house (House 2).
+3. **Who owns a horse?** The Japanese owns the horse (House 5).
+4. **Who owns a zebra?** The Ukrainian owns the zebra (House 2).
+---------------------------------
+Expected Answer: 
+ Englishman drinks milk
+Ukrainian lives in the red house
+Japanese owns the horse
+Ukrainian owns the zebra
+
+
+-------------Iteration  3 ----------------
+To solve this puzzle, let's systematically deduce the information based on the given clues.
+
+**Step 1: Set Up the Framework**
+
+We have 5 houses numbered from 1 to 5. Each house has a unique color, nationality, beverage, cigarette brand, and pet.
+
+**Categories:**
+
+- **Houses:** 1, 2, 3, 4, 5
+- **Colors:** Blue, Green, Ivory, Red, Yellow
+- **Nationalities:** Englishman, Japanese, Norwegian, Spaniard, Ukrainian
+- **Beverages:** Coffee, Milk, Orange Juice, Tea, Water
+- **Cigarettes:** Chesterfields, Kools, Lucky Strike, Old Gold, Parliaments
+- **Pets:** Dog, Fox, Horse, Snails, Zebra
+
+**Step 2: Apply Direct Clues**
+
+1. **Clue 10:** The Norwegian lives in the first house.
+   - House 1: Norwegian
+
+2. **Clue 9:** Milk is drunk in the middle house.
+   - House 3: Milk
+
+3. **Clue 15:** The Norwegian lives next to the red house.
+   - House 2: Red (since House 1 is occupied by the Norwegian)
+
+4. **Clue 6:** The green house is immediately to the right of the ivory house.
+   - Possible positions: Ivory in House 3, Green in House 4 (since House 2 is red)
+
+5. **Clue 4:** Coffee is drunk in the green house.
+   - House 4: Coffee
+
+6. **Clue 2:** The Englishman lives in the blue house.
+   - Blue house must be House 5 (since other colors are taken)
+   - House 5: Englishman, Blue
+
+7. **Clue 8:** Kools are smoked in the yellow house.
+   - Remaining color is Yellow for House 1
+   - House 1: Yellow
+
+**Step 3: Fill in Remaining Details**
+
+1. **Clue 13:** The Lucky Strike smoker drinks orange juice.
+   - Orange juice must be in House 5 (the only house left with an unassigned beverage)
+   - House 5: Lucky Strike, Orange Juice
+
+2. **Clue 5:** The Ukrainian drinks tea.
+   - Tea is unassigned and must be in House 2
+   - House 2: Ukrainian, Tea
+
+3. **Clue 14:** The Japanese smokes Parliaments.
+   - House 4 is the only remaining house for the Japanese
+   - House 4: Japanese, Parliaments
+
+4. **Clue 3:** The Spaniard owns the dog.
+   - House 3 is the only house left for the Spaniard
+   - House 3: Spaniard, Dog
+
+5. **Clue 7:** The Old Gold smoker owns snails.
+   - House 2 is the only house left for Old Gold smoker
+   - House 2: Old Gold, Snails
+
+6. **Clue 11:** The man who smokes Chesterfields lives next to the man with the fox.
+   - House 3 smokes Chesterfields
+   - House 4 has the fox (next to House 3)
+
+7. **Clue 12:** Kools are smoked in the house next to the house where the zebra is kept.
+   - Kools are in House 1
+   - Zebra must be in House 5 (the only house next to House 1 with an unassigned pet)
+   - House 5: Zebra
+
+8. **Remaining Pet:**
+   - Horse is the only pet left
+   - House 1: Horse
+
+**Final Arrangement:**
+
+- **House 1:**
+  - Color: Yellow
+  - Nationality: Norwegian
+  - Beverage: Water (only one left)
+  - Cigarette: Kools
+  - Pet: Horse
+
+- **House 2:**
+  - Color: Red
+  - Nationality: Ukrainian
+  - Beverage: Tea
+  - Cigarette: Old Gold
+  - Pet: Snails
+
+- **House 3:**
+  - Color: Ivory
+  - Nationality: Spaniard
+  - Beverage: Milk
+  - Cigarette: Chesterfields
+  - Pet: Dog
+
+- **House 4:**
+  - Color: Green
+  - Nationality: Japanese
+  - Beverage: Coffee
+  - Cigarette: Parliaments
+  - Pet: Fox
+
+- **House 5:**
+  - Color: Blue
+  - Nationality: Englishman
+  - Beverage: Orange Juice
+  - Cigarette: Lucky Strike
+  - Pet: Zebra
+
+**Answers to the Questions:**
+
+1. **Who drinks milk?**
+   - **Answer:** The Spaniard (House 3)
+
+2. **Who lives in the red house?**
+   - **Answer:** The Ukrainian (House 2)
+
+3. **Who owns a horse?**
+   - **Answer:** The Norwegian (House 1)
+
+4. **Who owns a zebra?**
+   - **Answer:** The Englishman (House 5)
+---------------------------------
+Expected Answer: 
+ Englishman drinks milk
+Ukrainian lives in the red house
+Japanese owns the horse
+Ukrainian owns the zebra
+
+
+-------------Iteration  4 ----------------
+To solve the puzzle, let's step through the clues methodically and fill out the information for each house.
+
+**Houses and Their Positions (from left to right):**
+
+1. House 1
+2. House 2
+3. House 3
+4. House 4
+5. House 5
+
+**Clues Applied:**
+
+1. **Clue 10:** The Norwegian lives in the first house.
+   - *House 1*: Norwegian
+
+2. **Clue 15:** The Norwegian lives next to the red house.
+   - The red house must be *House 2*.
+
+3. **Clue 2:** The Englishman lives in the blue house.
+   - Since the red house is *House 2*, and the blue house cannot be *House 1* (yellow house per Clue 8), the blue house is *House 3*.
+   - *House 3*: Blue color, Englishman
+
+4. **Clue 9:** Milk is drunk in the middle house.
+   - The middle house is *House 3*.
+   - *House 3*: Drinks milk
+
+5. **Clue 6:** The green house is immediately to the right of the ivory house.
+   - This means *House 4* is ivory, and *House 5* is green.
+
+6. **Clue 4:** Coffee is drunk in the green house.
+   - *House 5*: Drinks coffee
+
+7. **Clue 14:** The Japanese smokes Parliaments.
+   - The only unassigned nationality that can be in *House 5* (green house) is Japanese.
+   - *House 5*: Japanese, smokes Parliaments
+
+8. **Clue 5:** The Ukrainian drinks tea.
+   - The Ukrainian must be in *House 2* or *House 4* (since Houses 1, 3, and 5 are assigned).
+   - Since *House 2* is red and *House 4* is ivory, and there are no restrictions, we can place the Ukrainian in *House 2* for now.
+   - *House 2*: Ukrainian, drinks tea
+
+9. **Clue 13:** The Lucky Strike smoker drinks orange juice.
+   - Only *House 4* is unassigned for drinks and cigarettes.
+   - *House 4*: Smokes Lucky Strike, drinks orange juice
+
+10. **Clue 3:** The Spaniard owns the dog.
+    - The last unassigned nationality is the Spaniard.
+    - *House 4*: Spaniard, owns dog
+
+11. **Clue 8:** Kools are smoked in the yellow house.
+    - The yellow house must be *House 1*.
+    - *House 1*: Yellow color, smokes Kools
+
+12. **Clue 12:** Kools are smoked in the house next to the house where the zebra is kept.
+    - Since Kools are smoked in *House 1*, the zebra must be in *House 2*.
+    - *House 2*: Owns zebra
+
+13. **Clue 7:** The Old Gold smoker owns snails.
+    - The Old Gold smoker must be in *House 3* (since Houses 1, 2, 4, and 5 have their cigarettes assigned).
+    - *House 3*: Smokes Old Gold, owns snails
+
+14. **Clue 11:** The man who smokes Chesterfields lives in the house next to the man with the fox.
+    - The Chesterfields smoker must be in *House 2* or *House 4*. However, since *House 4* already has Lucky Strike, the Chesterfields smoker is in *House 2*.
+    - The man with the fox must be next door—in *House 1* or *House 3*. Since *House 3* owns snails, the fox is in *House 1*.
+    - *House 1*: Owns fox
+    - *House 2*: Smokes Chesterfields
+
+15. **Remaining Pet (horse):**
+    - The only unassigned pet is the horse, which must be owned by the Japanese in *House 5*.
+    - *House 5*: Owns horse
+
+**Final Assignments:**
+
+- **House 1:**
+  - Color: Yellow
+  - Nationality: Norwegian
+  - Drink: [Unassigned]
+  - Pet: Fox
+  - Cigarette: Kools
+
+- **House 2:**
+  - Color: Red
+  - Nationality: Ukrainian
+  - Drink: Tea
+  - Pet: Zebra
+  - Cigarette: Chesterfields
+
+- **House 3:**
+  - Color: Blue
+  - Nationality: Englishman
+  - Drink: Milk
+  - Pet: Snails
+  - Cigarette: Old Gold
+
+- **House 4:**
+  - Color: Ivory
+  - Nationality: Spaniard
+  - Drink: Orange Juice
+  - Pet: Dog
+  - Cigarette: Lucky Strike
+
+- **House 5:**
+  - Color: Green
+  - Nationality: Japanese
+  - Drink: Coffee
+  - Pet: Horse
+  - Cigarette: Parliaments
+
+**Answers to the Questions:**
+
+- **Who drinks milk?**
+  - The **Englishman** drinks milk in *House 3*.
+
+- **Who lives in the red house?**
+  - The **Ukrainian** lives in the red house (*House 2*).
+
+- **Who owns a horse?**
+  - The **Japanese** owns the horse in *House 5*.
+
+- **Who owns a zebra?**
+  - The **Ukrainian** owns the zebra in *House 2*.
+
+So:
+
+**1. The Englishman drinks milk.**
+
+**2. The Ukrainian lives in the red house.**
+
+**3. The Japanese owns a horse.**
+
+**4. The Ukrainian owns the zebra.**
+---------------------------------
+Expected Answer: 
+ Englishman drinks milk
+Ukrainian lives in the red house
+Japanese owns the horse
+Ukrainian owns the zebra
+
+
+-------------Iteration  5 ----------------
+To solve this logic puzzle, we'll assign each house with the given attributes step by step.
+
+1. **House Positions:**
+   - House 1: Norwegian (Clue 10)
+   - House 2: Red house (next to Norwegian's house, Clue 15)
+   - House 3: Ivory house, drinks milk (Clues 9 and deductions)
+   - House 4: Green house (immediately to the right of ivory, Clue 6), drinks coffee (Clue 4)
+   - House 5: Blue house, Englishman (Clue 2)
+
+2. **Nationalities and Drinks:**
+   - House 1: Norwegian, drinks water (since all other drinks are taken)
+   - House 2: Ukrainian, drinks tea (Clue 5)
+   - House 3: Spaniard, drinks milk (deduced from clues)
+   - House 4: Japanese, drinks coffee (Clue 14 and deduced)
+   - House 5: Englishman, drinks orange juice (Clue 13)
+
+3. **Cigarette Brands:**
+   - House 1: Kools (smoked in yellow house, Clue 8)
+   - House 2: Chesterfields (deduced as the only remaining brand)
+   - House 3: Old Gold (Clue 7)
+   - House 4: Parliaments (Clue 14)
+   - House 5: Lucky Strike (Clue 13)
+
+4. **Pets:**
+   - House 1: Zebra (deduced from Clues 12 and 8)
+   - House 2: Fox (next to Chesterfields smoker, Clue 11)
+   - House 3: Dog (Spaniard owns dog, Clue 3)
+   - House 4: Snails (Old Gold smoker owns snails, Clue 7)
+   - House 5: Horse (only pet left)
+
+**Answers to the questions:**
+
+- **Who drinks milk?** The Spaniard.
+- **Who lives in the red house?** The Ukrainian.
+- **Who owns a horse?** The Englishman.
+- **Who owns a zebra?** The Norwegian.
+---------------------------------
+Expected Answer: 
+ Englishman drinks milk
+Ukrainian lives in the red house
+Japanese owns the horse
+Ukrainian owns the zebra
+
+
+-------------Iteration  6 ----------------
+Based on the clues provided, we can deduce the following:
+
+**House Assignments:**
+
+1. **House 1:**
+   - Nationality: Norwegian
+   - Color: Yellow
+   - Smoke: Kools
+   - Pet: Fox
+   - Drink: Water
+
+2. **House 2:**
+   - Nationality: Ukrainian
+   - Color: Red
+   - Smoke: Chesterfields
+   - Pet: Zebra
+   - Drink: Tea
+
+3. **House 3:**
+   - Nationality: Englishman
+   - Color: Blue
+   - Smoke: Old Gold
+   - Pet: Snails
+   - Drink: Milk
+
+4. **House 4:**
+   - Nationality: Spaniard
+   - Color: Ivory
+   - Smoke: Lucky Strike
+   - Pet: Dog
+   - Drink: Orange Juice
+
+5. **House 5:**
+   - Nationality: Japanese
+   - Color: Green
+   - Smoke: Parliaments
+   - Pet: Horse
+   - Drink: Coffee
+
+**Answers to the Questions:**
+
+1. **Who drinks milk?**
+   - **The Englishman** drinks milk.
+
+2. **Who lives in the red house?**
+   - **The Ukrainian** lives in the red house.
+
+3. **Who owns a horse?**
+   - **The Japanese** owns the horse.
+
+4. **Who owns a zebra?**
+   - **The Ukrainian** owns the zebra.
+---------------------------------
+Expected Answer: 
+ Englishman drinks milk
+Ukrainian lives in the red house
+Japanese owns the horse
+Ukrainian owns the zebra
+
+
+-------------Iteration  7 ----------------
+To solve this logic puzzle, we'll piece together the clues to determine who lives in which house, their nationalities, the pets they own, the drinks they consume, and the cigarettes they smoke.
+
+**Step 1: Assign Houses by Position**
+
+Number the houses from 1 to 5, left to right.
+
+**Step 2: Initial Placements**
+
+- **Clue 10:** The Norwegian lives in the first house.
+
+  - House 1: Norwegian
+
+- **Clue 15:** The Norwegian lives next to the red house.
+
+  - Therefore, House 2 is red.
+
+- **Clue 4:** Coffee is drunk in the green house.
+  
+- **Clue 6:** The green house is immediately to the right of the ivory house.
+
+  - This means the ivory house is before the green house.
+
+We can deduce:
+
+- Houses 3 and 4 are ivory and green, respectively.
+
+**Step 3: Assign House Colors**
+
+- House 1: [Color to be determined]
+- House 2: Red
+- House 3: Ivory
+- House 4: Green
+- House 5: [Color to be determined]
+
+**Clue 2:** The Englishman lives in the blue house.
+
+Therefore, the remaining colors (yellow and blue) must be assigned to Houses 1 and 5.
+
+However, the Norwegian lives in House 1, so House 1 cannot be blue (since the Englishman lives in the blue house). Thus:
+
+- House 1: Yellow
+- House 5: Blue
+
+**Step 4: Assign Nationalities and Drinks**
+
+- **Clue 8:** Kools are smoked in the yellow house.
+
+  - House 1: Norwegian, Yellow, smokes Kools
+
+- **Clue 12:** Kools are smoked in the house next to the house where the zebra is kept.
+
+  - Therefore, the zebra is in House 2.
+
+- **Clue 5:** The Ukrainian drinks tea.
+
+  - House 2: Ukrainian, Red, drinks tea
+
+- **Clue 9:** Milk is drunk in the middle house.
+
+  - House 3: Ivory, drinks milk
+
+- **Clue 4:** Coffee is drunk in the green house.
+
+  - House 4: Green, drinks coffee
+
+- **Clue 14:** The Japanese smokes Parliaments.
+
+  - The only unassigned nationality is Japanese; thus:
+
+    - House 4: Japanese
+
+- **Clue 2:** The Englishman lives in the blue house.
+
+  - House 5: Englishman, Blue
+
+**Step 5: Assign Remaining Traits**
+
+- **Clue 7:** The Old Gold smoker owns snails.
+
+- **Clue 3:** The Spaniard owns the dog.
+
+  - The only unassigned nationality is Spaniard, which must be in House 3.
+
+    - House 3: Spaniard, Ivory, drinks milk, owns dog
+
+- **Clue 13:** The Lucky Strike smoker drinks orange juice.
+
+  - The only unassigned drink is orange juice, and House 5 hasn't been assigned a drink yet.
+
+    - House 5: Englishman, Blue, drinks orange juice, smokes Lucky Strike
+
+- **Clue 11:** The man who smokes Chesterfields lives in the house next to the man with the fox.
+
+  - House 2 must be the Chesterfields smoker (since the Norwegian in House 1 smokes Kools, the Spaniard in House 3 owns the dog, and the Japanese in House 4 smokes Parliaments). The fox must be in one of the houses next to House 2.
+
+- **Clue 1 and other deductions:**
+
+  - House 1 owns the fox.
+  
+- **Clue 7:** The Old Gold smoker owns snails.
+
+  - This must be House 3.
+
+- **Clue 6:** Green house (House 4) is to the right of the ivory house (House 3).
+
+- **Clue 14:** The Japanese smokes Parliaments.
+
+  - House 4: Japanese, Green, drinks coffee, smokes Parliaments, owns zebra (since it's the only remaining pet).
+
+- **Clue 12:** Kools are smoked in the house next to the house where the zebra is kept.
+
+  - House 1 (Kools smoker) is next to House 2 (not the zebra owner), so the zebra must be in House 4, which is next to House 3.
+
+**Final Assignments:**
+
+- **House 1:** Norwegian, Yellow, smokes Kools, owns fox, drinks water
+- **House 2:** Ukrainian, Red, smokes Chesterfields, owns horse, drinks tea
+- **House 3:** Spaniard, Ivory, smokes Old Gold, owns dog, drinks milk
+- **House 4:** Japanese, Green, smokes Parliaments, owns zebra, drinks coffee
+- **House 5:** Englishman, Blue, smokes Lucky Strike, drinks orange juice
+
+**Answering the Questions:**
+
+- **Who drinks milk?**
+  
+  - The Spaniard in House 3 drinks milk.
+
+- **Who lives in the red house?**
+  
+  - The Ukrainian lives in the red house (House 2).
+
+- **Who owns a horse?**
+
+  - The Ukrainian in House 2 owns the horse.
+
+- **Who owns a zebra?**
+
+  - The Japanese in House 4 owns the zebra.
+
+---
+
+**Answer:**
+
+1. **Who drinks milk?** The Spaniard.
+2. **Who lives in the red house?** The Ukrainian.
+3. **Who owns a horse?** The Ukrainian.
+4. **Who owns a zebra?** The Japanese.
+---------------------------------
+Expected Answer: 
+ Englishman drinks milk
+Ukrainian lives in the red house
+Japanese owns the horse
+Ukrainian owns the zebra
+
+
+-------------Iteration  8 ----------------
+To solve this puzzle, we need to carefully deduce the attributes of each house based on the given clues. Here’s the step-by-step solution:
+
+**1. Assign the House Numbers and Known Facts:**
+
+- **House Positions (from left to right):** Houses 1 to 5.
+- **Clue 10:** The Norwegian lives in the first house.
+- **Clue 15:** The Norwegian lives next to the red house. So, **House 2** is red.
+- **Clue 9:** Milk is drunk in the middle house. So, **House 3** drinks milk.
+- **Clue 6:** The green house is immediately to the right of the ivory house. So, possible positions for ivory and green houses are Houses 3 and 4 (since House 2 is red).
+
+   This means:
+   
+   - **House 3:** Ivory.
+   - **House 4:** Green.
+
+- **Clue 4:** Coffee is drunk in the green house. So, **House 4** drinks coffee.
+- **Clue 2:** The Englishman lives in the blue house. The only house left without a color is **House 5**, so it must be blue, and the Englishman lives there.
+- **Clue 8:** Kools are smoked in the yellow house. The only house left without a color is **House 1**, so it must be yellow, and Kools are smoked there.
+
+**2. Assign the Nationalities:**
+
+- **House 1:** Norwegian (from clue 10).
+- **House 2:** The Norwegian's neighbor is the red house, which is **House 2**. The nationalities left are Ukrainian, Spaniard, and Japanese.
+- **Clue 5:** The Ukrainian drinks tea. Since Houses 1 (Norwegian) and 5 (Englishman) are taken, the Ukrainian must be in **House 2**.
+- **Clues 3 and 9:** The Spaniard owns the dog, and milk is drunk in House 3. So, **House 3** must be the Spaniard who owns the dog.
+- The only nationality left is Japanese, so the Japanese must be in **House 4**.
+
+**3. Assign the Drinks:**
+
+- **House 1:** Only drink left is water.
+- **Clue 13:** The Lucky Strike smoker drinks orange juice. Since the Englishman in House 5 is the only one left, he must be the one drinking orange juice and smoking Lucky Strike.
+
+**4. Assign the Smokes:**
+
+- **House 1:** Kools (from clue 8).
+- **House 4:** Parliaments (from clue 14).
+- **House 5:** Lucky Strike (from clue 13).
+- The cigarettes left are Old Gold and Chesterfields.
+
+**5. Assign the Pets:**
+
+- **Clue 7:** The Old Gold smoker owns snails.
+- **Clue 11:** The man who smokes Chesterfields lives next to the man with the fox.
+
+Considering the above clues:
+
+- **House 2:** Must be the Old Gold smoker who owns snails.
+- **House 3:** Must be the Chesterfields smoker (since it's next to House 4, which will own the fox).
+- **House 4:** Must own the fox.
+
+**6. Assign Remaining Attributes:**
+
+- **House 1:** The only pet left for House 1 is the horse.
+- **House 5:** The only pet left is the zebra.
+
+**7. Final Summary:**
+
+- **House 1:** Norwegian, Yellow, Water, Kools, Horse
+- **House 2:** Ukrainian, Red, Tea, Old Gold, Snails
+- **House 3:** Spaniard, Ivory, Milk, Chesterfields, Dog
+- **House 4:** Japanese, Green, Coffee, Parliaments, Fox
+- **House 5:** Englishman, Blue, Orange Juice, Lucky Strike, **Zebra**
+
+**Answers to the Questions:**
+
+- **Who drinks milk?** The **Spaniard** (in House 3).
+- **Who lives in the red house?** The **Ukrainian** (in House 2).
+- **Who owns a horse?** The **Norwegian** (in House 1).
+- **Who owns a zebra?** The **Englishman** (in House 5).
+
+**Final Answers:**
+
+- **The Spaniard** drinks milk.
+- **The Ukrainian** lives in the red house.
+- **The Norwegian** owns the horse.
+- **The Englishman** owns the zebra.
+---------------------------------
+Expected Answer: 
+ Englishman drinks milk
+Ukrainian lives in the red house
+Japanese owns the horse
+Ukrainian owns the zebra
+
+
+-------------Iteration  9 ----------------
+To solve this puzzle, we'll organize the information step by step and deduce the relationships between the occupants, their houses, pets, drinks, and cigarettes. Here's the solution:
+
+**Assignments based on the clues:**
+
+1. **House Positions and Colors:**
+   - House 1: Norwegian, **yellow house**, smokes Kools.
+   - House 2: Ukrainian, **red house**, drinks tea.
+   - House 3: Spaniard, **ivory house**, drinks milk.
+   - House 4: Japanese, **green house**, drinks coffee, smokes Parliaments.
+   - House 5: Englishman, **blue house**, drinks orange juice, smokes Lucky Strike.
+
+2. **Pets:**
+   - House 1: Norwegian owns the **horse**.
+   - House 2: Ukrainian owns **snails**.
+   - House 3: Spaniard owns the **dog**.
+   - House 4: Japanese owns the **fox**.
+   - House 5: Englishman owns the **zebra**.
+
+3. **Smokers:**
+   - House 1: Norwegian smokes **Kools**.
+   - House 2: Ukrainian smokes **Old Gold**.
+   - House 3: Spaniard smokes **Chesterfields**.
+   - House 4: Japanese smokes **Parliaments**.
+   - House 5: Englishman smokes **Lucky Strike**.
+
+**Answers to the specific questions:**
+
+- **Who drinks milk?** The **Spaniard** (House 3) drinks milk.
+- **Who lives in the red house?** The **Ukrainian** (House 2) lives in the red house.
+- **Who owns a horse?** The **Norwegian** (House 1) owns the horse.
+- **Who owns a zebra?** The **Englishman** (House 5) owns the zebra.
+---------------------------------
+Expected Answer: 
+ Englishman drinks milk
+Ukrainian lives in the red house
+Japanese owns the horse
+Ukrainian owns the zebra
+
+
+-------------Iteration  10 ----------------
+To solve this puzzle, we need to deduce the attributes of each house based on the given clues. Here's a step-by-step breakdown:
+
+**Houses and Known Information:**
+
+1. **House 1**
+   - **Color:** Yellow (Clue 8: Kools are smoked in the yellow house)
+   - **Nationality:** Norwegian (Clue 10)
+   - **Drink:** Water (by elimination)
+   - **Smoke:** Kools (Clue 8)
+   - **Pet:** Fox (Clue 11: The man who smokes Chesterfields lives next to the man with the fox)
+
+2. **House 2**
+   - **Color:** Red (Clue 15: The Norwegian lives next to the red house)
+   - **Nationality:** Ukrainian (Clues 5 and by elimination)
+   - **Drink:** Tea (Clue 5)
+   - **Smoke:** Chesterfields (Derived from Clue 11)
+   - **Pet:** Zebra (Clue 12: Kools are smoked in the house next to where the zebra is kept)
+
+3. **House 3**
+   - **Color:** Blue (Clue 2: The Englishman lives in the blue house)
+   - **Nationality:** Englishman (Clue 2)
+   - **Drink:** Milk (Clue 9)
+   - **Smoke:** Old Gold (Clue 7)
+   - **Pet:** Snails (Clue 7)
+
+4. **House 4**
+   - **Color:** Ivory (Clue 6)
+   - **Nationality:** Spaniard (Clue 3 and by elimination)
+   - **Drink:** Orange Juice (Clue 13)
+   - **Smoke:** Lucky Strike (Clue 13)
+   - **Pet:** Dog (Clue 3)
+
+5. **House 5**
+   - **Color:** Green (Clue 6)
+   - **Nationality:** Japanese (Clue 14)
+   - **Drink:** Coffee (Clue 4)
+   - **Smoke:** Parliaments (Clue 14)
+   - **Pet:** Horse (by elimination)
+
+**Answers:**
+
+- **Who drinks milk?** The Englishman (in House 3)
+- **Who lives in the red house?** The Ukrainian (in House 2)
+- **Who owns a horse?** The Japanese (in House 5)
+- **Who owns a zebra?** The Ukrainian (in House 2)
+
+**Final Assignments:**
+
+- **House 1:** Norwegian, Yellow, Water, Kools, Fox
+- **House 2:** Ukrainian, Red, Tea, Chesterfields, Zebra
+- **House 3:** Englishman, Blue, Milk, Old Gold, Snails
+- **House 4:** Spaniard, Ivory, Orange Juice, Lucky Strike, Dog
+- **House 5:** Japanese, Green, Coffee, Parliaments, Horse
+
+---
+
+**Answer Summary:**
+
+- **Milk is drunk by the Englishman.**
+- **The Ukrainian lives in the red house.**
+- **The Japanese owns the horse.**
+- **The Ukrainian owns the zebra.**
+---------------------------------
+Expected Answer: 
+ Englishman drinks milk
+Ukrainian lives in the red house
+Japanese owns the horse
+Ukrainian owns the zebra

@@ -1,0 +1,5 @@
+{
+    "model": "o1-mini",
+    "puzzle": "Please solve the following puzzle: \n\n Out of six boys exactly two we are known to have been stealing apples. \nHarry said:George and Charlie. \nDonald said:James and George \nTom said:Donald and James. \nCharlie said:Harry and George. \nGeorge said:Donald and Tom. \nJames couldn't be found. \nFour of the five boys interrogated had named one of the miscreants correctly and lied about the other one.The fifth boy had lied outright! \n\nWho stole the apples??",
+    "answers": ["George and Tom"]
+}

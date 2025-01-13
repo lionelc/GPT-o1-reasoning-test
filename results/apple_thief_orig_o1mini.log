@@ -1,0 +1,498 @@
+
+
+-------------Iteration  1 ----------------
+Let's analyze the puzzle step by step to determine who stole the apples.
+
+### **Participants:**
+- **Boys:** Harry, Donald, James, George, Charlie, Tom.
+- **Statements:**
+  - **Harry:** Charlie and George.
+  - **Donald:** Tom and Charlie.
+  - **James:** Donald and Tom.
+  - **George:** Harry and Charlie.
+  - **Charlie:** Donald and James.
+- **Conditions:**
+  - Exactly **two** boys stole the apples.
+  - **Four** of the **five** interrogated boys named **one** correct thief and **one** incorrect.
+  - **One** boy lied about both suspects.
+
+### **Step-by-Step Reasoning:**
+
+1. **Assume Charlie is one of the thieves** (since he's accused by multiple boys):
+   
+2. **Test Possible Pairs Involving Charlie:**
+   
+   - **Pair: Charlie and James**
+     - **Harry:** Accuses Charlie (correct) and George (incorrect) → **1 correct**
+     - **Donald:** Accuses Tom (incorrect) and Charlie (correct) → **1 correct**
+     - **James:** Accuses Donald (incorrect) and Tom (incorrect) → **0 correct**
+     - **George:** Accuses Harry (incorrect) and Charlie (correct) → **1 correct**
+     - **Charlie:** Accuses Donald (incorrect) and James (correct) → **1 correct**
+     
+     **Summary:**
+     - **Four** boys (Harry, Donald, George, Charlie) named one correct and one incorrect suspect.
+     - **One** boy (James) lied about both suspects.
+     
+     **This pair satisfies all conditions.**
+
+3. **Verify Other Possible Pairs:**
+
+   Testing other combinations either results in:
+   - More than one boy lying outright.
+   - More than four boys naming exactly one correct suspect.
+   
+   No other pair meets all the required conditions.
+
+### **Conclusion:**
+**Charlie and James** are the two boys who stole the apples.
+
+**Answer:** Charlie and James stole the apples.
+---------------------------------
+Expected Answer: 
+ Charlie and James
+
+
+-------------Iteration  2 ----------------
+Let's analyze the puzzle step by step to determine who stole the apples.
+
+### **Given:**
+- **Six boys:** Harry, Donald, James, George, Charlie, Tom.
+- **Statements:**
+  - **Harry** said: Charlie and George.
+  - **Donald** said: Tom and Charlie.
+  - **James** said: Donald and Tom.
+  - **George** said: Harry and Charlie.
+  - **Charlie** said: Donald and James.
+  - **Tom** couldn't be found.
+- **Conditions:**
+  - Exactly **two** boys stole the apples.
+  - **Four** of the five interrogated boys named **one correct thief** and **one incorrect**.
+  - **One** boy lied outright, naming **both innocents**.
+
+### **Step-by-Step Reasoning:**
+
+1. **Assume Charlie is a Thief:**
+   - Given Charlie is accused by Harry, Donald, and George, it's plausible that Charlie is one of the thieves.
+
+2. **Determine the Second Thief:**
+   - We need to find a second thief (X) such that:
+     - Four boys name one correct thief (either Charlie or X).
+     - One boy names both innocents.
+
+3. **Check Possible Pairs with Charlie:**
+   - **Pair: Charlie & James**
+     - **Harry:** Named Charlie (correct) and George (incorrect) → **One correct**.
+     - **Donald:** Named Tom (incorrect) and Charlie (correct) → **One correct**.
+     - **James:** Named Donald (incorrect) and Tom (incorrect) → **Both incorrect**.
+     - **George:** Named Harry (incorrect) and Charlie (correct) → **One correct**.
+     - **Charlie:** Named Donald (incorrect) and James (correct) → **One correct**.
+     - **Outcome:** 
+       - **Four** boys (Harry, Donald, George, Charlie) named one correct thief.
+       - **One** boy (James) lied outright by naming both innocents.
+
+4. **Validation:**
+   - This pairing satisfies all the given conditions.
+
+### **Conclusion:**
+**Charlie and James** are the two boys who stole the apples.
+
+**Answer:**  
+Charlie and James stole the apples.
+---------------------------------
+Expected Answer: 
+ Charlie and James
+
+
+-------------Iteration  3 ----------------
+Let's analyze the statements to determine who the two thieves are.
+
+**Boys Involved:**
+- Harry (H)
+- Donald (D)
+- James (J)
+- George (G)
+- Charlie (C)
+- Tom (T)
+
+**Statements:**
+1. **Harry**: Charlie and George.
+2. **Donald**: Tom and Charlie.
+3. **James**: Donald and Tom.
+4. **George**: Harry and Charlie.
+5. **Charlie**: Donald and James.
+
+**Conditions:**
+- Exactly two boys stole the apples.
+- Four out of the five interrogated boys named one thief correctly and one incorrectly.
+- One boy lied outright, naming neither thief.
+
+**Step-by-Step Reasoning:**
+
+1. **Assume Charlie is one of the thieves.**
+   - **Harry's statement**: Charlie (True) and George (False) → **1 correct**.
+   - **Donald’s statement**: Tom (False) and Charlie (True) → **1 correct**.
+   - **James’s statement**: Donald (False) and Tom (False) → **0 correct** (potential liar).
+   - **George’s statement**: Harry (False) and Charlie (True) → **1 correct**.
+   - **Charlie’s statement**: Donald (False) and James (True) → **1 correct**.
+
+2. **Verification:**
+   - **Four statements** (Harry, Donald, George, Charlie) have **one correct and one incorrect** accusation.
+   - **One statement** (James) has **both accusations incorrect**, fitting the condition of one outright liar.
+
+3. **Conclusion:**
+   - The only combination that fits all conditions is **Charlie and James** being the thieves.
+
+**Answer:**
+Charlie and James are the two boys who stole the apples.
+---------------------------------
+Expected Answer: 
+ Charlie and James
+
+
+-------------Iteration  4 ----------------
+Let's solve the puzzle step by step.
+
+### **Given:**
+- **Six Boys:** Harry, Donald, James, George, Charlie, Tom.
+- **Stealers:** Exactly **two** of these boys.
+- **Statements:**
+  - **Harry:** Charlie and George.
+  - **Donald:** Tom and Charlie.
+  - **James:** Donald and Tom.
+  - **George:** Harry and Charlie.
+  - **Charlie:** Donald and James.
+- **Condition:** 
+  - **Four** of the five interrogated boys named **one correct** and **one incorrect** stealer.
+  - **One** boy **lied outright** (both names incorrect).
+
+### **Approach:**
+1. **Identify all possible pairs** of stealer candidates from the six boys.
+2. **Check each pair** against the statements to see if it satisfies the conditions.
+3. **Find the unique pair** that fits the criteria.
+
+### **Detailed Analysis:**
+
+1. **Assume Stealers are Charlie (C) and James (J):**
+   - **Harry's Statement:** C and G → **One correct** (C).
+   - **Donald's Statement:** T and C → **One correct** (C).
+   - **James's Statement:** D and T → **Both incorrect**.
+   - **George's Statement:** H and C → **One correct** (C).
+   - **Charlie's Statement:** D and J → **One correct** (J).
+
+   - **Summary:**
+     - **Four** statements have **one correct** and **one incorrect** name.
+     - **One** statement (James) has **both names incorrect**.
+
+2. **Check Other Pairs:**
+   - All other pairs either result in more than one boy lying outright or fail to have exactly four boys naming one correct and one incorrect stealer.
+
+### **Conclusion:**
+The only pair that satisfies all conditions is **Charlie and James**.
+
+**Answer:**  
+**Charlie and James were the two boys who stole the apples.**
+---------------------------------
+Expected Answer: 
+ Charlie and James
+
+
+-------------Iteration  5 ----------------
+Let's solve the puzzle step-by-step by analyzing the statements and conditions provided.
+
+### **Given:**
+- **Six Boys:** Harry, Donald, James, George, Charlie, Tom.
+- **Two Thieves:** Exactly two of these boys stole apples.
+- **Statements:**
+  - **Harry:** Charlie and George.
+  - **Donald:** Tom and Charlie.
+  - **James:** Donald and Tom.
+  - **George:** Harry and Charlie.
+  - **Charlie:** Donald and James.
+- **Conditions:**
+  - Four out of the five interrogated boys named **one thief correctly** and **one incorrectly**.
+  - One boy lied outright (named **two innocent** boys).
+
+### **Approach:**
+1. **Assume Potential Thieves:** Start by assuming two boys as the potential thieves and verify if their accusations meet the conditions.
+
+2. **Check Each Pair:**
+   
+   **Case 1: Charlie and James (C & J)**
+   - **Harry:** Charlie (Guilty) and George (Innocent) → **One correct.**
+   - **Donald:** Tom (Innocent) and Charlie (Guilty) → **One correct.**
+   - **James:** Donald (Innocent) and Tom (Innocent) → **Both wrong.**
+   - **George:** Harry (Innocent) and Charlie (Guilty) → **One correct.**
+   - **Charlie:** Donald (Innocent) and James (Guilty) → **One correct.**
+   
+   - **Result:** Four statements have one correct accusation, and one statement (James) is entirely wrong. This perfectly fits the conditions.
+
+3. **Verify Uniqueness:** Testing other pairs (like Charlie with anyone else or excluding Charlie) leads to either multiple statements being entirely wrong or not fitting the conditions.
+
+### **Conclusion:**
+The only pair that satisfies all the given conditions is **Charlie and James**.
+
+**Answer:**  
+Charlie and James are the two boys who stole the apples.
+---------------------------------
+Expected Answer: 
+ Charlie and James
+
+
+-------------Iteration  6 ----------------
+Let's solve the puzzle step-by-step to identify the two boys who stole the apples.
+
+### **List of Boys:**
+- Harry
+- Charlie
+- George
+- Donald
+- James
+- Tom
+
+### **Statements:**
+1. **Harry** accused **Charlie** and **George**.
+2. **Donald** accused **Tom** and **Charlie**.
+3. **James** accused **Donald** and **Tom**.
+4. **George** accused **Harry** and **Charlie**.
+5. **Charlie** accused **Donald** and **James**.
+6. **Tom** couldn't be found.
+
+### **Conditions:**
+- Out of five interrogated boys, **four** correctly named **one** thief and **lied about the other**.
+- The **fifth** boy **lied outright**, meaning neither of his accusations are correct.
+
+### **Step-by-Step Reasoning:**
+
+1. **Assume Possible Pairs of Thieves**: We need to consider all possible pairs from the six boys and check which pair satisfies the conditions.
+
+2. **Evaluate Each Pair**:
+   - Go through each possible pair and check the consistency with the statements.
+   - For each pair, determine how many boys named one of the thieves correctly and how many lied outright.
+
+3. **Identify the Correct Pair**:
+   - Upon evaluating all possible pairs, the pair **Charlie (C)** and **James (J)** stands out.
+   - Here's why:
+     - **Harry**: Accused **Charlie** (correct) and **George** (incorrect) → 1 correct.
+     - **Donald**: Accused **Tom** (incorrect) and **Charlie** (correct) → 1 correct.
+     - **James**: Accused **Donald** (incorrect) and **Tom** (incorrect) → 0 correct (lied outright).
+     - **George**: Accused **Harry** (incorrect) and **Charlie** (correct) → 1 correct.
+     - **Charlie**: Accused **Donald** (incorrect) and **James** (correct) → 1 correct.
+
+   - This configuration satisfies the condition where four boys named one thief correctly and one boy lied outright.
+
+### **Conclusion:**
+
+After analyzing all possible scenarios, the two boys who stole the apples are:
+
+**Charlie and James**.
+
+**Answer:**  
+Charlie and James are the two boys who stole the apples.
+---------------------------------
+Expected Answer: 
+ Charlie and James
+
+
+-------------Iteration  7 ----------------
+To solve the puzzle, let's systematically analyze the statements made by each boy and determine who the two apple thieves are.
+
+### **List of Boys and Their Statements:**
+1. **Harry** said: **Charlie** and **George**.
+2. **Donald** said: **Tom** and **Charlie**.
+3. **James** said: **Donald** and **Tom**.
+4. **George** said: **Harry** and **Charlie**.
+5. **Charlie** said: **Donald** and **James**.
+6. **Tom** couldn't be found and thus didn't provide any statement.
+
+### **Constraints:**
+- **Two** of the six boys are the thieves.
+- **Four** out of the five interrogated boys have **one correct** accusation and **one incorrect**.
+- **One** boy has **both accusations incorrect**.
+
+### **Solution Process:**
+Let's evaluate each possible pair of thieves and see which pair fits the given constraints.
+
+1. **Assume Charlie (C) and James (J) are the thieves:**
+   - **Harry:** Accuses **C** (correct) and **G** (incorrect) → **1 correct**.
+   - **Donald:** Accuses **T** (incorrect) and **C** (correct) → **1 correct**.
+   - **James:** Accuses **D** (incorrect) and **T** (incorrect) → **0 correct**.
+   - **George:** Accuses **H** (incorrect) and **C** (correct) → **1 correct**.
+   - **Charlie:** Accuses **D** (incorrect) and **J** (correct) → **1 correct**.
+
+   This configuration satisfies the conditions: four boys have **one correct and one incorrect** accusation, and one boy (**James**) has **both accusations incorrect**.
+
+2. **Check Other Pairs:**
+   - Any other pair either results in more than one boy having both incorrect accusations or doesn't meet the "four correct one wrong" and "one completely wrong" criteria.
+
+### **Conclusion:**
+After evaluating all possible pairs, the only pair that fits the given constraints is **Charlie (C)** and **James (J)**.
+
+**Answer:**  
+Charlie and James are the two boys who stole the apples.
+---------------------------------
+Expected Answer: 
+ Charlie and James
+
+
+-------------Iteration  8 ----------------
+Let's solve the puzzle step by step by analyzing each statement and applying the given conditions.
+
+### **Given:**
+- There are **six boys**: Harry, Donald, James, George, Charlie, and Tom.
+- **Exactly two** of them stole apples.
+- **Statements:**
+  - **Harry**: Charlie and George.
+  - **Donald**: Tom and Charlie.
+  - **James**: Donald and Tom.
+  - **George**: Harry and Charlie.
+  - **Charlie**: Donald and James.
+- **Conditions:**
+  - **Four** of the five interrogated boys named **one** thief correctly and **lied** about the other.
+  - **One** boy lied **outright** (named neither thief).
+
+### **Step-by-Step Reasoning:**
+
+1. **Assume Charlie is one of the thieves.**  
+   - This is supported by multiple accusations against Charlie (by Harry, Donald, and George).
+
+2. **Identify the possible second thief:**
+   - Potential candidates: George, Tom, Donald, Harry, James.
+
+3. **Evaluate each possible pair with Charlie:**
+
+   - **Charlie & George:**
+     - **Harry**: Both correct (Charlie & George) → **Invalid** (Needs only one correct).
+     - **Result**: Discard.
+
+   - **Charlie & Tom:**
+     - **Donald**: Both correct (Tom & Charlie) → **Invalid**.
+     - **Result**: Discard.
+
+   - **Charlie & Donald:**
+     - **All statements except for Charlie's fit the condition** (one correct, one incorrect).
+     - **However, Donald's statement becomes two correct → Invalid**.
+     - **Result**: Discard.
+
+   - **Charlie & Harry:**
+     - **George**: Both correct (Harry & Charlie) → **Invalid**.
+     - **Result**: Discard.
+
+   - **Charlie & James:**
+     - **Harry**: One correct (Charlie).
+     - **Donald**: One correct (Charlie).
+     - **James**: Zero correct (Donald & Tom).
+     - **George**: One correct (Charlie).
+     - **Charlie**: One correct (James).
+     - **Result**: Fits all conditions.
+   
+4. **Verification:**
+   - **Four boys** (Harry, Donald, George, Charlie) named **one thief correctly**.
+   - **One boy** (James) lied **outright** by naming no thieves correctly.
+
+### **Conclusion:**
+The two boys who stole the apples are **Charlie and James**.
+
+**Answer:**  
+Charlie and James stole the apples.
+---------------------------------
+Expected Answer: 
+ Charlie and James
+
+
+-------------Iteration  9 ----------------
+Let's analyze the puzzle step by step to determine who stole the apples.
+
+### **Given:**
+- **Boys Involved:** Harry, Donald, James, George, Charlie, Tom.
+- **Statements:**
+  - **Harry:** Charlie and George.
+  - **Donald:** Tom and Charlie.
+  - **James:** Donald and Tom.
+  - **George:** Harry and Charlie.
+  - **Charlie:** Donald and James.
+  - **Tom:** Couldn't be found.
+- **Condition:** 
+  - **Four** of the five interrogated boys named **one** correct thief and **one** incorrect.
+  - **One** boy lied outright, naming **both** incorrectly.
+
+### **Approach:**
+1. **Identify Possible Pairs:** There are 15 possible pairs of thieves from the six boys.
+2. **Evaluate Each Pair:** For each possible pair, check how each boy's statement aligns:
+   - **One Correct & One Incorrect:** Should be four boys.
+   - **Both Incorrect:** Should be one boy.
+3. **Determine the Valid Pair:** The pair that fits the above condition perfectly is the solution.
+
+### **Step-by-Step Evaluation:**
+After systematically checking all 15 possible pairs, the pair that satisfies the condition is:
+
+- **Thieves:** **James** and **Charlie**.
+
+**Why?**
+- **Harry:** Accuses Charlie (correct) and George (incorrect) → **1 correct**.
+- **Donald:** Accuses Tom (incorrect) and Charlie (correct) → **1 correct**.
+- **James:** Accuses Donald (incorrect) and Tom (incorrect) → **0 correct**.
+- **George:** Accuses Harry (incorrect) and Charlie (correct) → **1 correct**.
+- **Charlie:** Accuses Donald (incorrect) and James (correct) → **1 correct**.
+
+This results in:
+- **Four boys** (Harry, Donald, George, Charlie) naming **one correct** and **one incorrect** thief.
+- **One boy** (James) lied outright, naming **both incorrectly**.
+
+### **Conclusion:**
+The boys who stole the apples are **James** and **Charlie**.
+
+**Answer:** James and Charlie stole the apples.
+---------------------------------
+Expected Answer: 
+ Charlie and James
+
+
+-------------Iteration  10 ----------------
+Let's analyze the puzzle step by step to determine who stole the apples.
+
+### **Boys Involved:**
+1. **Harry**
+2. **Donald**
+3. **James**
+4. **George**
+5. **Charlie**
+6. **Tom** (couldn't be found)
+
+### **Statements:**
+- **Harry** said: **Charlie** and **George**.
+- **Donald** said: **Tom** and **Charlie**.
+- **James** said: **Donald** and **Tom**.
+- **George** said: **Harry** and **Charlie**.
+- **Charlie** said: **Donald** and **James**.
+
+### **Conditions:**
+- Out of six boys, exactly **two** stole the apples.
+- **Four** of the five interrogated boys named **one** thief correctly and lied about the other.
+- **One** boy lied **outright** (neither accusation is correct).
+
+### **Step-by-Step Reasoning:**
+
+1. **Assume Different Pairs as Thieves:** We'll evaluate each possible pair of boys to see if it meets the conditions.
+
+2. **Check for Consistency:**
+   - **Each Accusation:** Determine if the statements align with only one correct and one incorrect accusation.
+   - **Identify the Liar:** Ensure only one boy completely lied (both accusations incorrect).
+
+3. **Testing the Pair (Charlie & James):**
+   - **Harry**: Accused **Charlie** (thief) and **George** (not). → **One correct**.
+   - **Donald**: Accused **Tom** (not) and **Charlie** (thief). → **One correct**.
+   - **James**: Accused **Donald** (not) and **Tom** (not). → **Both incorrect** (the outright liar).
+   - **George**: Accused **Harry** (not) and **Charlie** (thief). → **One correct**.
+   - **Charlie**: Accused **Donald** (not) and **James** (thief). → **One correct**.
+
+4. **Result:**
+   - **Four** boys (**Harry**, **Donald**, **George**, **Charlie**) have one correct and one incorrect accusation.
+   - **One** boy (**James**) lied outright.
+
+### **Conclusion:**
+This pairing perfectly fits the given conditions, making **Charlie** and **James** the apple thieves.
+
+**Answer:** Charlie and James were the two boys who stole the apples.
+---------------------------------
+Expected Answer: 
+ Charlie and James
